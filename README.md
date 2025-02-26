@@ -16,18 +16,3 @@ This project is an assembly program that compares two input text strings line by
 2. It compares each character in both strings.
 3. If the characters are equal, the program continues to the next character.
 4. If the characters are different, the program prints out the lines where the difference occurs and outputs the result in a formatted way.
-
-## Setup
-
-### Prerequisites
-
-- An assembler to compile the assembly code (e.g., [NASM](https://www.nasm.us/), [GAS](https://sourceware.org/binutils/docs/as/)).
-- A Linux or macOS system for running the assembly code (since it's using system calls like `syscall`).
-- Basic knowledge of x86-64 assembly and system calls.
-
-### How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/assembly-diff-project.git
-   cd assembly-diff-project
